@@ -8,7 +8,7 @@ Este proyecto es una aplicación para la gestión de una biblioteca, desarrollad
 
 - **Java**: Lenguaje de programación principal utilizado para el desarrollo de la aplicación.
 - **HTML**: Utilizado para la estructura y el contenido de las páginas web de la aplicación a través de Thymeleaf.
-- **CSS (3.5%)**: Estilos utilizados para el diseño y la presentación de la interfaz de usuario.
+- **CSS**: Estilos utilizados para el diseño y la presentación de la interfaz de usuario.
 
 ## Funcionalidades
 
