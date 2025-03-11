@@ -2,7 +2,7 @@
 
  # Proyecto de Gestión de Biblioteca
 
-Este proyecto es una aplicación para la gestión de una biblioteca, desarrollada en Java. Permite administrar libros, usuarios y préstamos de manera eficiente.
+Este proyecto es una aplicación para la gestión de una biblioteca, desarrollada en Java. 
 
 ## Tecnologías Utilizadas
 
@@ -12,9 +12,7 @@ Este proyecto es una aplicación para la gestión de una biblioteca, desarrollad
 
 ## Funcionalidades
 
-- Gestión de libros: agregar, editar, eliminar y buscar libros en la biblioteca.
-- Gestión de usuarios: registro y administración de usuarios de la biblioteca.
-- Gestión de préstamos: control de préstamos y devoluciones de libros.
+- Gestión de libros: agregar, editar,  y buscar libros en la biblioteca.
 
 ## Instalación
 
