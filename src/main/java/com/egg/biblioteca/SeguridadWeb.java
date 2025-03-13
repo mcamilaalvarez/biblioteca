@@ -16,8 +16,10 @@ public class SeguridadWeb {
         http
                 .authorizeHttpRequests((authorize) -> authorize
                         .requestMatchers("/admin/").hasRole("ADMIN")
-                        .requestMatchers("/inicio").hasAnyRole("ADMIN","USER") 
-                        .requestMatchers("/css/", "/js/", "/img/", "/**").permitAll())
+                        .requestMatchers("/login", "/registrar", "/registro").permitAll() 
+                        .requestMatchers("/css/**", "/js/**", "/img/**").permitAll()
+                        .anyRequest().authenticated() 
+                        )
                 .formLogin((form) -> form
                         .loginPage("/login")
                         .loginProcessingUrl("/logincheck")
@@ -33,9 +35,9 @@ public class SeguridadWeb {
         return http.build();
     }
 
-    @Bean
-    public BCryptPasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+        @Bean
+        public BCryptPasswordEncoder passwordEncoder() {
+                return new BCryptPasswordEncoder();
+        }
 
 }
